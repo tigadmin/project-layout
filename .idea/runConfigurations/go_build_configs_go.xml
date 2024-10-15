@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="go build configs.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" nameIsGenerated="true">
+    <module name="fanops-project-layout" />
+    <working_directory value="$PROJECT_DIR$" />
+    <kind value="FILE" />
+    <package value="github.com/YOUR-USER-OR-ORG-NAME/YOUR-REPO-NAME" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$/configs/configs.go" />
+    <method v="2" />
+  </configuration>
+</component>

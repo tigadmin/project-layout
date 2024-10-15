@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html class=" ">
+<head>
+    <!--
+     * @Package: Complete Admin - Responsive Theme
+     * @Subpackage: Bootstrap
+     * @Version: 2.2
+     * This file is part of Complete Admin Theme.
+    -->
+    <meta content="text/html;charset=UTF-8" http-equiv="content-type"/>
+    <meta charset="utf-8"/>
+    <title>Complete Admin : Responsive Tables</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+
+    <link href="../assets/images/favicon.png" rel="shortcut icon" type="image/x-icon"/>    <!-- Favicon -->
+    <link href="../assets/images/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
+    <!-- For iPhone -->
+    <link href="../assets/images/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed"
+          sizes="114x114">    <!-- For iPhone 4 Retina display -->
+    <link href="../assets/images/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+    <!-- For iPad -->
+    <link href="../assets/images/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed"
+          sizes="144x144">    <!-- For iPad Retina display -->
+
+
+    <!-- CORE CSS FRAMEWORK - START -->
+    <link href="../assets/plugins/pace/pace-theme-flash.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/plugins/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/css/animate.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/plugins/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" type="text/css"/>
+    <!-- CORE CSS FRAMEWORK - END -->
+
+    <!-- HEADER SCRIPTS INCLUDED ON THIS PAGE - START -->
+
+
+    <link href="../assets/plugins/responsive-tables/css/rwd-table.min.css" media="screen" rel="stylesheet"
+          type="text/css"/>
+
+    <!-- HEADER SCRIPTS INCLUDED ON THIS PAGE - END -->
+    <link href="../assets/plugins/icheck/skins/all.css" media="screen" rel="stylesheet" type="text/css"/>
+
+
+    <!-- CORE CSS TEMPLATE - START -->
+    <link href="../assets/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/css/responsive.css" rel="stylesheet" type="text/css"/>
+    <!-- CORE CSS TEMPLATE - END -->
+
+</head>
+<!-- END HEAD -->
+
+<!-- BEGIN BODY -->
+<body class=" "><!-- START TOPBAR -->
+<div class='page-topbar '>
+    <div class='logo-area'>
+
+    </div>
+    <div class='quick-area'>
+        <div class='pull-left'>
+            <ul class="info-menu left-links list-inline list-unstyled">
+                <li class="sidebar-toggle-wrap">
+                    <a class="sidebar_toggle" data-toggle="sidebar" href="#">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+
+                <li class="notify-toggle-wrapper">
+                    <a class="toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-exclamation-triangle"></i>
+                        <span class="badge badge-accent">3</span>
+                    </a>
+                    <ul class="dropdown-menu notifications animated fadeIn">
+                        <li class="total">
+                            <span class="small">
+                                You have <strong>3</strong> player alerts.
+                                <a class="pull-right" href="javascript:">Mark all as Read</a>
+                            </span>
+                        </li>
+                        <li class="list">
+
+                            <ul class="dropdown-menu-list list-unstyled ps-scrollbar">
+                                <li class="unread available"> <!-- available: success, warning, info, error -->
+                                    <a href="javascript:">
+                                        <div class="notice-icon">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div>
+                                                <span class="name">
+                                                    <strong>Lebron James will play in Sundays game</strong>
+                                                    <span class="time small">15 mins ago</span>
+                                                </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="unread away"> <!-- available: success, warning, info, error -->
+                                    <a href="javascript:">
+                                        <div class="notice-icon">
+                                            <i class="fa fa-question"></i>
+                                        </div>
+                                        <div>
+                                                <span class="name">
+                                                    <strong>Justise Winslow (wrist) is questionable in Wednesday Game</strong>
+                                                    <span class="time small">3 days ago</span>
+                                                </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class=" busy"> <!-- available: success, warning, info, error -->
+                                    <a href="javascript:">
+                                        <div class="notice-icon">
+                                            <i class="fa fa-times"></i>
+                                        </div>
+                                        <div>
+                                                <span class="name">
+                                                    <strong>James Johnson (shoulder) won't play Tuesday</strong>
+                                                    <span class="time small">1 hour ago</span>
+                                                </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class=" offline"> <!-- available: success, warning, info, error -->
+                                    <a href="javascript:">
+                                        <div class="notice-icon">
+                                            <i class="fa fa-user"></i>
+                                        </div>
+                                        <div>
+                                                <span class="name">
+                                                    <strong>Justise Winslow (wrist) has been ruled out for Tuesday's game vs. the Knicks.	</strong>
+                                                    <span class="time small">5 hours ago</span>
+                                                </span>
+                                        </div>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+
+                        </li>
+
+                        <li class="external">
+                            <a href="javascript:">
+                                <span>Read All Recent News</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <div class='pull-right'>
+            <ul class="info-menu right-links list-inline list-unstyled">
+                <li class="profile">
+                    <a class="toggle" data-toggle="dropdown" href="#">
+                        <img alt="user-image" class="img-circle img-inline" src="../data/profile/profile-ecommerce.jpg">
+                        <span>Mark Willy <i class="fa fa-angle-down"></i></span>
+                    </a>
+                    <ul class="dropdown-menu profile animated fadeIn">
+                        <li>
+                            <a href="account-information.html">
+                                <i class="fa fa-wrench"></i>
+                                My Account
+                            </a>
+                        </li>
+                        <li>
+                            <a href="DFS-profile.html">
+                                <i class="fa fa-user"></i>
+                                Profile
+                            </a>
+                        </li>
+                        <li>
+                            <a href="dfs-help.html">
+                                <i class="fa fa-info"></i>
+                                Help
+                            </a>
+                        </li>
+                        <li>
+                            <a href="DFS-faqs.html">
+                                <i class="fa fa-question"></i>
+                                Faq's
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="ui-login.html">
+                                <i class="fa fa-lock"></i>
+                                Logout
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="chat-toggle-wrapper">
+                    <a class="toggle_chat" data-toggle="chatbar" href="#">
+                        <i class="fa fa-comments"></i>
+                        <span class="badge badge-accent">9</span>
+                        <i class="fa fa-times"></i>
+                    </a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!-- END TOPBAR -->
+<!-- START CONTAINER -->
+<div class="page-container row-fluid container-fluid">
+
+    <!-- SIDEBAR - START -->
+
+    <div class="page-sidebar pagescroll">
+
+        <!-- MAIN MENU - START -->
+        <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+
+            <!-- USER INFO - START -->
+            <div class="profile-info row">
+
+                <div class="profile-image col-xs-4">
+                    <a href="ui-profile.html">
+                        <img alt="" class="img-responsive img-circle" src="../data/profile/profile-socialmedia.jpg">
+                    </a>
+                </div>
+
+                <div class="profile-details col-xs-8">
+
+                    <h3>
+                        <a href="ui-profile.html">Mark Yurey</a>
+
+                        <!-- Available statuses: online, idle, busy, away and offline -->
+                        <span class="profile-status online"></span>
+                    </h3>
+
+                    <p class="profile-title">Administrator</p>
+
+                </div>
+
+            </div>
+            <!-- USER INFO - END -->
+
+
+            <ul class='wraplist'>
+
+
+                <li class='menusection'>Members Zone</li>
+
+                <li class="">
+                    <a href="dashboard.html">
+                        <i class="fa fa-dashboard"></i>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li class="">
+                    <a href="javascript:">
+                        <i class="fa fa-play-circle"></i>
+                        <span class="title">DFS Picks: NFL</span>
+                        <span class="arrow "></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="nfl-game-grid.html">Create DFS Lineup</a>
+                            <a class="" href="nfl-saved-lineups.html">Saved DFS Lineups</a>
+                            <a class="" href="nfl-algo.html">Player Models</a>
+                            <a class="" href="nfl-algo-boost.html">Player Boosts</a>
+                            <a class="" href="nfl-algo-matchups.html">Player Matchups</a>
+                            <a class="" href="nfl-news.html">NFL News</a>
+
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="">
+                    <a href="javascript:">
+                        <i class="fa fa-play-circle"></i>
+                        <span class="title">DFS Picks: NBA</span>
+                        <span class="arrow "></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="nba-game-grid.html">Create DFS Lineup</a>
+                            <a class="" href="nba-saved-lineups.html">Saved DFS Lineups</a>
+                            <a class="" href="nba-algo.html">Player Models</a>
+                            <a class="" href="nba-algo-boost.html">Player Boosts</a>
+                            <a class="" href="nba-algo-matchups.html">Player Matchups</a>
+                            <a class="" href="nba-news.html">NBA News</a>
+
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="">
+                    <a href="javascript:">
+                        <i class="fa fa-play-circle"></i>
+                        <span class="title">DFS Picks: MLB</span>
+                        <span class="arrow "></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="mlb-game-grid.html">Create DFS Lineup</a>
+                            <a class="" href="mlb-saved-lineups.html">Saved DFS Lineups</a>
+                            <a class="" href="mlb-algo.html">Player Models</a>
+                            <a class="" href="mlb-algo-boost.html">Player Boosts</a>
+                            <a class="" href="mlb-algo-matchups.html">Player Matchups</a>
+                            <a class="" href="mlb-news.html">MLB News</a>
+
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="">
+                    <a href="javascript:">
+                        <i class="fa fa-newspaper-o"></i>
+                        <span class="title">Insider Connect</span>
+                        <span class="arrow "></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="soc-group-view.html">DFS: My Group</a>
+                        </li>
+                        <li>
+                            <a class="" href="DFS-social-groups.html">DFS: Insider Groups</a>
+                        </li>
+
+                        <li>
+                            <a class="" href="DFS-insider.html">DFS: Resources</a>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="">
+                    <a href="javascript:">
+                        <i class="fa fa-file-text-o"></i>
+                        <span class="title">Gameday Notebook</span>
+                        <span class="arrow "></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="dfs-notebook.html">Notebooks</a>
+                        </li>
+                        <li>
+                            <a class="" href="DFS-notes.html">Add Note</a>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="">
+                    <a href="javascript:">
+                        <i class="fa fa-users"></i>
+                        <span class="title">Referals</span>
+                        <span class="arrow "></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="affiliate.html">Refer A Friend</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+
+                <li class="">
+                    <a href="javascript:">
+                        <i class="fa fa-gear"></i>
+                        <span class="title">Fanops Gear</span>
+                        <span class="arrow "></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="fanops-gear.html">Official Gear</a>
+
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="">
+                    <a href="javascript:">
+                        <i class="fa fa-ticket "></i>
+                        <span class="title">Subscriptions</span>
+                        <span class="arrow "></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="subscriptions.html">Plan Details</a>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="">
+                    <a href="javascript:">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="title">Orders</span>
+                        <span class="arrow "></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="orders.html">All Orders</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="">
+                    <a href="javascript:">
+                        <i class="fa fa-question"></i>
+                        <span class="title">Help</span>
+                        <span class="arrow "></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="dfs-help.html">Documentation</a>
+                        </li>
+                        <li>
+                            <a class="" href="DFS-faqs.html">FAQ's</a>
+                        </li>
+                        <li>
+                            <a class="" href="video-series.html">Video Series</a>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <div class="menustats">
+                    <h5>Fanduel Games</h5>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="50"
+                             class="progress-bar progress-bar-primary" role="progressbar" style="width: 50%;">
+                        </div>
+                    </div>
+                    <h5>Draftkings Games</h5>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="70"
+                             class="progress-bar progress-bar-accent" role="progressbar" style="width: 70%;">
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+        <!-- MAIN MENU - END -->
+
+
+    </div>
+    <!--  SIDEBAR - END -->
+    <!-- START CONTENT -->
+    <section class=" " id="main-content">
+        <section class="wrapper main-wrapper row" style=''>
+
+            <div class='col-xs-12'>
+
+
+                <!-- MAIN CONTENT AREA STARTS -->
+
+                <div class="alert alert-info alert-dismissible fade in">
+                    <button aria-label="Close" class="close" data-dismiss="alert" type="button"><span
+                            aria-hidden="true">×</span></button>
+                    <strong>Warning:</strong> Better check yourself, you're not looking too good.
+                </div>
+
+
+                <div class='col-xs-12'>
+                    <div class="page-title">
+
+                        <div class="pull-left">
+                            <!-- PAGE HEADING TAG - START --><h1 class="title">MLB DFS - Player Models</h1>
+                            <!-- PAGE HEADING TAG - END -->                            </div>
+
+                        <div class="pull-right hidden-xs">
+                            <ol class="breadcrumb">
+                                <li>
+                                    <a href="dashboard.html"><i class="fa fa-home"></i>Dashboard</a>
+                                </li>
+                                <li>MLB DFS: Player Models</li>
+                                <li class="active">
+                                    <strong>MLB DFS: Edit Player Model</strong>
+                                </li>
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+
+                <div class="col-lg-12">
+                    <section class="box ">
+                        <header class="panel_header">
+                            <h2 class="title pull-left">MLB DFS: Edit Player Models</h2>
+
+
+                            <div class="actions panel_actions pull-right">
+
+                                <a class="box_setting fa fa-question" data-toggle="modal" href="#section-settings"></a>
+
+
+                            </div>
+                        </header>
+                        <div class="content-body">
+
+                            <div class="btn-group bottom15 pull-right">
+                                <button class="btn btn-primary" type="button">Export</button>
+                                <button aria-expanded="false" class="btn btn-primary dropdown-toggle"
+                                        data-toggle="dropdown"
+                                        type="button">
+                                    <span class="fa fa-download"></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Export Stats</a></li>
+                                    <li><a href="#">Export Position Stats</a></li>
+                                </ul>
+                            </div><!-- /btn-group -->
+                            <div class="btn-group bottom15 right5 pull-right">
+                                <button class="btn btn-primary" type="button">Use Default Model</button>
+                            </div><!-- /btn-group -->
+
+
+                            <div class="row">
+                                <div class="col-xs-12">
+
+                                    <div class="table-responsive" data-pattern="priority-columns">
+                                        <table class="table table-small-font table-bordered table-striped"
+                                               id="tech-companies-1">
+                                            <thead>
+                                            <tr>
+
+                                                <th rowspan="2">Stat Category</th>
+                                                <th colspan="2">P</th>
+                                                <th colspan="2">C</th>
+                                                <th colspan="2">1st</th>
+                                                <th colspan="2">2nd</th>
+                                                <th colspan="2">3rd</th>
+
+
+                                            </tr>
+
+                                            <tr>
+                                                <th>Default Value</th>
+                                                <th>Value [0-1000]</th>
+                                                <th>Default Value</th>
+                                                <th>Value [0-1000]</th>
+                                                <th>Default Value</th>
+                                                <th>Value [0-1000]</th>
+                                                <th>Default Value</th>
+                                                <th>Value [0-1000]</th>
+                                                <th>Default Value</th>
+                                                <th>Value [0-1000]</th>
+
+                                            </tr>
+
+
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td align="left">FanDuel Salary</td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos=""></span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default=""
+                                                           name="Values[PG][salary_fanduel]" type="text" value="">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos=""></span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default=""
+                                                           name="Values[SG][salary_fanduel]" type="text" value="">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos=""></span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default=""
+                                                           name="Values[SF][salary_fanduel]" type="text" value="">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos=""></span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default=""
+                                                           name="Values[PF][salary_fanduel]" type="text" value="">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos=""></span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default=""
+                                                           name="Values[C][salary_fanduel]" type="text" value="">
+                                                </td>
+                                            </tr>
+
+
+                                            <tr>
+                                                <td align="left">FanDuel Fantasy Points</td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[C][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                            </tr>
+
+
+                                            <tr>
+                                                <td align="left">FanDuel Fantasy Points</td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[C][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="left">FanDuel Fantasy Points</td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[C][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="left">FanDuel Fantasy Points</td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[C][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="left">FanDuel Fantasy Points</td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[C][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="left">FanDuel Fantasy Points</td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[C][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="left">FanDuel Fantasy Points</td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[C][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="left">FanDuel Fantasy Points</td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[C][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="left">FanDuel Fantasy Points</td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[C][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="left">FanDuel Fantasy Points</td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[C][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="left">FanDuel Fantasy Points</td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SG][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[SF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[PF][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                                <td align="center"><span class="algorithm-value-field"
+                                                                         data-pos="">95</span></td>
+                                                <td align="center">
+                                                    <input class="algorythm-value input-text validate-number-range number-range-0-1000"
+                                                           data-default="95"
+                                                           name="Values[C][fp_s_fanduel]" type="text" value="1">
+                                                </td>
+                                            </tr>
+
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <div class="actions panel_actions pull-right">
+
+
+                        <a button class="btn btn-purple btn-icon bottom15 right15" href="mlb-algo.html" type="button">
+                            <i class="fa fa-arrow-left"></i> &nbsp; <span>BACK</span>
+                        </a>
+
+                        <button class="btn btn-success btn-icon bottom15 right15" type="button">
+                            <i class="fa fa-floppy-o"></i> &nbsp; <span>SAVE PLAYER MODEL</span>
+                        </button>
+                    </div>
+
+                </div>
+
+
+                <div class="col-xs-12">
+                    <section class="box ">
+
+                        <div class="col-xs-12">
+
+
+                            <form>
+                                <div class="form-group">
+                                    <textarea class="form-control" cols="5" id="field-6"
+                                              placeholder="How can we make this page better? We value all feedback, ideas or complaints"></textarea>
+                                </div>
+
+                                <button class="btn btn-secondary pull-right" type="button">Send Feedback</button>
+                            </form>
+
+                        </div>
+
+                    </section>
+                </div>
+
+
+                <!-- MAIN CONTENT AREA ENDS -->
+        </section>
+    </section>
+    <!-- END CONTENT -->
+    <div class="page-chatapi hideit">
+
+        <div class="search-bar">
+            <input class="form-control" placeholder="Search" type="text">
+        </div>
+
+        <div class="chat-wrapper">
+            <h4 class="group-head">Groups</h4>
+            <ul class="group-list list-unstyled">
+                <li class="group-row">
+                    <div class="group-status available">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                    <div class="group-info">
+                        <h4><a href="#">Work</a></h4>
+                    </div>
+                </li>
+                <li class="group-row">
+                    <div class="group-status away">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                    <div class="group-info">
+                        <h4><a href="#">Friends</a></h4>
+                    </div>
+                </li>
+
+            </ul>
+
+
+            <h4 class="group-head">Favourites</h4>
+            <ul class="contact-list">
+
+                <li class="user-row " data-user-id='1' id='chat_user_1'>
+                    <div class="user-img">
+                        <a href="#"><img alt="" src="../data/profile/avatar-1.png"></a>
+                    </div>
+                    <div class="user-info">
+                        <h4><a href="#">Clarine Vassar</a></h4>
+                        <span class="status available" data-status="available"> Available</span>
+                    </div>
+                    <div class="user-status available">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                </li>
+                <li class="user-row " data-user-id='2' id='chat_user_2'>
+                    <div class="user-img">
+                        <a href="#"><img alt="" src="../data/profile/avatar-2.png"></a>
+                    </div>
+                    <div class="user-info">
+                        <h4><a href="#">Brooks Latshaw</a></h4>
+                        <span class="status away" data-status="away"> Away</span>
+                    </div>
+                    <div class="user-status away">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                </li>
+                <li class="user-row " data-user-id='3' id='chat_user_3'>
+                    <div class="user-img">
+                        <a href="#"><img alt="" src="../data/profile/avatar-3.png"></a>
+                    </div>
+                    <div class="user-info">
+                        <h4><a href="#">Clementina Brodeur</a></h4>
+                        <span class="status busy" data-status="busy"> Busy</span>
+                    </div>
+                    <div class="user-status busy">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                </li>
+
+            </ul>
+
+
+            <h4 class="group-head">More Contacts</h4>
+            <ul class="contact-list">
+
+                <li class="user-row " data-user-id='4' id='chat_user_4'>
+                    <div class="user-img">
+                        <a href="#"><img alt="" src="../data/profile/avatar-4.png"></a>
+                    </div>
+                    <div class="user-info">
+                        <h4><a href="#">Carri Busey</a></h4>
+                        <span class="status offline" data-status="offline"> Offline</span>
+                    </div>
+                    <div class="user-status offline">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                </li>
+                <li class="user-row " data-user-id='5' id='chat_user_5'>
+                    <div class="user-img">
+                        <a href="#"><img alt="" src="../data/profile/avatar-5.png"></a>
+                    </div>
+                    <div class="user-info">
+                        <h4><a href="#">Melissa Dock</a></h4>
+                        <span class="status offline" data-status="offline"> Offline</span>
+                    </div>
+                    <div class="user-status offline">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                </li>
+                <li class="user-row " data-user-id='6' id='chat_user_6'>
+                    <div class="user-img">
+                        <a href="#"><img alt="" src="../data/profile/avatar-1.png"></a>
+                    </div>
+                    <div class="user-info">
+                        <h4><a href="#">Verdell Rea</a></h4>
+                        <span class="status available" data-status="available"> Available</span>
+                    </div>
+                    <div class="user-status available">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                </li>
+                <li class="user-row " data-user-id='7' id='chat_user_7'>
+                    <div class="user-img">
+                        <a href="#"><img alt="" src="../data/profile/avatar-2.png"></a>
+                    </div>
+                    <div class="user-info">
+                        <h4><a href="#">Linette Lheureux</a></h4>
+                        <span class="status busy" data-status="busy"> Busy</span>
+                    </div>
+                    <div class="user-status busy">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                </li>
+                <li class="user-row " data-user-id='8' id='chat_user_8'>
+                    <div class="user-img">
+                        <a href="#"><img alt="" src="../data/profile/avatar-3.png"></a>
+                    </div>
+                    <div class="user-info">
+                        <h4><a href="#">Araceli Boatright</a></h4>
+                        <span class="status away" data-status="away"> Away</span>
+                    </div>
+                    <div class="user-status away">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                </li>
+                <li class="user-row " data-user-id='9' id='chat_user_9'>
+                    <div class="user-img">
+                        <a href="#"><img alt="" src="../data/profile/avatar-4.png"></a>
+                    </div>
+                    <div class="user-info">
+                        <h4><a href="#">Clay Peskin</a></h4>
+                        <span class="status busy" data-status="busy"> Busy</span>
+                    </div>
+                    <div class="user-status busy">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                </li>
+                <li class="user-row " data-user-id='10' id='chat_user_10'>
+                    <div class="user-img">
+                        <a href="#"><img alt="" src="../data/profile/avatar-5.png"></a>
+                    </div>
+                    <div class="user-info">
+                        <h4><a href="#">Loni Tindall</a></h4>
+                        <span class="status away" data-status="away"> Away</span>
+                    </div>
+                    <div class="user-status away">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                </li>
+                <li class="user-row " data-user-id='11' id='chat_user_11'>
+                    <div class="user-img">
+                        <a href="#"><img alt="" src="../data/profile/avatar-1.png"></a>
+                    </div>
+                    <div class="user-info">
+                        <h4><a href="#">Tanisha Kimbro</a></h4>
+                        <span class="status idle" data-status="idle"> Idle</span>
+                    </div>
+                    <div class="user-status idle">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                </li>
+                <li class="user-row " data-user-id='12' id='chat_user_12'>
+                    <div class="user-img">
+                        <a href="#"><img alt="" src="../data/profile/avatar-2.png"></a>
+                    </div>
+                    <div class="user-info">
+                        <h4><a href="#">Jovita Tisdale</a></h4>
+                        <span class="status idle" data-status="idle"> Idle</span>
+                    </div>
+                    <div class="user-status idle">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div class="chatapi-windows ">
+
+
+    </div>
+</div>
+<!-- END CONTAINER -->
+<!-- LOAD FILES AT PAGE END FOR FASTER LOADING -->
+
+
+<!-- CORE JS FRAMEWORK - START -->
+<script src="../assets/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="../assets/js/jquery.easing.min.js" type="text/javascript"></script>
+<script src="../assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../assets/plugins/pace/pace.min.js" type="text/javascript"></script>
+<script src="../assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js" type="text/javascript"></script>
+<script src="../assets/plugins/viewport/viewportchecker.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="../assets/js/jquery-1.11.2.min.js"><\/script>');</script>
+<!-- CORE JS FRAMEWORK - END -->
+
+<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
+
+<script src="../assets/plugins/datatables/js/jquery.dataTables.min.js" type="text/javascript"></script>
+<script src="../assets/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js"
+        type="text/javascript"></script>
+<script src="../assets/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js"
+        type="text/javascript"></script>
+<script src="../assets/plugins/datatables/extensions/Responsive/bootstrap/3/dataTables.bootstrap.js"
+        type="text/javascript"></script>
+<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
+
+
+<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
+
+<script src="../assets/plugins/responsive-tables/js/rwd-table.min.js" type="text/javascript"></script>
+<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
+
+
+<!-- CORE TEMPLATE JS - START -->
+<script src="../assets/js/scripts.js" type="text/javascript"></script>
+<!-- END CORE TEMPLATE JS - END -->
+
+
+<!-- General section box modal start -->
+<div aria-hidden="true" class="modal" id="section-settings" role="dialog" tabindex="-1">
+    <div class="modal-dialog animated bounceInDown">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button aria-hidden="true" class="close" data-dismiss="modal" type="button">&times;</button>
+                <h4 class="modal-title">Help Menu</h4>
+            </div>
+            <div class="modal-body">
+
+                Body goes here...
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+                <button class="btn btn-success" type="button">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal end -->
+</body>
+</html>
